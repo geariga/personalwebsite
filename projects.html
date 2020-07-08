@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andrew Gearig Web Developer">
+    <link rel="stylesheet" href="style.css">
+    <title>AG - Projects</title>
+</head>
+<body>
+    <nav>
+        <ul class="removeBullets navLinks">
+            <li>
+                <a class="navLink" href="index.html">About</a>
+            </li>
+            <li>
+                <a class="navLink selected" href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a class="navLink" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+
+    <main>
+        <div class="subheader">
+            <blockquote id="fadeIn" cite="https://www.goodreads.com/quotes/tag/web-development">
+                <p>
+                    <strong>
+                        "Your website is the center of your digital eco-system, 
+                        like a brick and mortar location, the experience matters once 
+                        a customer enters, just as much as the perception they have of 
+                        you before they walk through the door."
+                    </strong>
+                    <footer>
+                        - Leland Dieno
+                        <cite>
+                            Face The Book With Your Small Business: A step by step 
+                            guide to establishing your small business on the 
+                            biggest social media network in existence.
+                        </cite> 
+                    </footer>
+                </p>
+            </blockquote>
+        </div>
+        <h2 class="tabHeader">Projects</h2>
+        <div class="completeProjects">
+            <div class="projectHeader">Deployed Projects</div>
+            <div class="eachProject">
+                <a class="projectLink" href="http://www.practicegermanwords.com" target="_blank">www.practicegermanwords.com</a>
+                <div class="projectDescription">
+                    <p>
+                        "Die Häufigsten Worter", or "The most common words" is a
+                        website I created to assist myself and others in learning
+                        some of the most common nouns, verbs and adjectives in
+                        the German language, along with their conjugations or
+                        declensions. Partially due to not being deployed on a 
+                        production server, it may be a bit slow to load.    
+                    </p>
+                    <ul>
+                        <li class="concepts">Concepts Used:</li>
+                        <li>NodeJS</li>
+                        <li>Template Engine (pug)</li>
+                        <li>Web Scraping (to gather all the required data)</li>
+                        <li>Two-way binary to hexadecimal conversions using vanilla JS</li>
+                        <li>Usage and manipulation of local storage data</li>
+                    </ul>
+                    <img src="images/germanflag.png" alt="German Flag Icon" width="100" height="100">
+                </div>
+
+            </div>
+            <div class="eachProject">
+                <a class="projectLink" href="https://waterbashers.imfast.io" target="_blank">Water Bashers Toy</a>
+                <div class="projectDescription">
+                    <p>
+                        I made this basic website for a colleague to help 
+                        them sell their product. It is my first project that was 
+                        completed and deployed. Due to limited supply and to 
+                        prevent supply issues, there isn't a payment gateway 
+                        set up. All orders are handled one-by-one. 
+                    </p>
+                    <ul>
+                        <li class="concepts">Concepts Used:</li>
+                        <li>Vanilla HTML5</li>
+                        <li>Vanilla CSS3</li>
+                        <li>Vanilla JS</li>
+                        <li>Adapted for Accessibility</li>
+                    </ul>
+                    <img src="images/wb_pack2.png" alt="Water Basher toy in packaging" width="100" height="100">
+                </div>
+            </div>
+        </div>
+        <div class="incompleteProjects">
+            <div class="projectHeader">Works in Progress</div>
+            <div class="eachProject">
+                <span class="projectLink" href="#" target="_blank">NASA Near Earth Object Data Visualizer</span>
+                <div class="projectDescription">
+                    <p>
+                        I began this project after discovering how fun public APIs can be. 
+                        So far, it allows the user to enter a date (or a range
+                        of dates), which is used to extract information from the API 
+                        so the user can view data about Near-Earth-Objects for
+                        the given date(s). This may include the number of NEOs, how 
+                        many were potentially hazardous, and also their proximity, 
+                        size, and the next estimated perihelion. I intend to use 
+                        visual aids to give a more user-friendly view of the data. 
+                    </p>
+                    <ul>
+                        <li class="concepts">Concepts Used:</li>
+                        <li>Public APIs</li>
+                        <li>Data extraction and visualization</li>
+                        <li>Front-end (HTML5, CSS3, JS)</li>
+                        <li>Asynchronous functionality</li>
+                    </ul>
+                    <img src="images/asteroid.png" alt="Asteroid Icon" width="100" height="100">
+                </div>
+            </div>
+            <!-- <div class="eachProject">
+                <span class="projectLink" href="#" target="_blank">FL COVID-19 Data Visualizer and API.</span>
+                <div class="projectDescription">
+                    <p>
+                        COVID-19 Data Visualizer stuff goes here.
+                    </p>
+                    <ul>
+                        <li class="concepts">Concepts Used:</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                    <img src="images/virus.png" alt="Virus Icon" width="100" height="100">
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>  
+</body>
+</html>

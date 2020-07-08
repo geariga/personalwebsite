@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+header, nav, main, footer {
+    display: block;
+} 
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4.5em;
+    width: 100%;
+    background-color: #044688;
+    border-bottom: 4px solid #0490C1;
+}
+
+.navLinks {
+    position: absolute;
+    top: -50%;
+    transform: translateY(50%);
+    font-size: 2em;
+    font-weight: 400;
+    width: max-content;
+}
+
+.navLinks li {
+    display: inline-block;
+}
+
+.navLinks li a {
+    padding: .5em;
+    color: white;
+}
+
+.selected {
+    background-color: rgba(4, 143, 193, .7);
+    border: 2px solid #0490C1;
+}
+
+main {
+    text-align: center;
+    padding-top: 4.5em;
+    background-color: white;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('./images/BlockchainBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    border-bottom: 2px solid black;
+}
+
+.subheader div {
+    font-size: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2em;
+    width: 55em;
+    height: 45em;
+    max-height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.emailMeButton {
+    width: 10em;
+    padding: .5em;
+    color: white;
+    background-color: #040F35;
+}
+
+.subheader div h1 {
+    font-size: 3.5em;
+}
+
+.subheader div h2 {
+    font-size: 3em;
+    font-style: italic;
+}
+
+.subheader img {
+    height: 100%;
+    width: auto;
+}
+
+.about p, .contactInfo {
+    width: 60%;
+    font-size: 1.3em;
+    margin-left: 20%;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.about ul li {
+    font-style: italic;
+    font-weight: bold;
+    color: #040F35;
+}
+
+.tabHeader {
+    font-size: 2.7em;
+    text-decoration: underline;
+}
+
+.about, .contact {
+    background-color: rgba(4, 143, 193, .3);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#fadeIn {
+    opacity: 0;
+}
+
+/* Projects.html */
+
+.subheader blockquote {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    width: 35em;
+    padding: 2.5em;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, .8);  
+}
+
+.projectHeader {
+    width: 100%;
+    height: fit-content;
+    padding: .5em;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0AC5E6;
+}
+
+.completeProjects {
+    border-right: 1px solid black;
+}
+
+.incompleteProjects {
+    border-left: 1px solid black;
+}
+
+.completeProjects, .incompleteProjects {
+    width: 50%;
+    float: left;
+    border-top: 1px solid black;
+}
+
+.eachProject {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.eachProject h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.completeProjects .eachProject:nth-of-type(even), .incompleteProjects .eachProject:nth-of-type(odd) {
+    background-color: rgba(10, 197, 230, .5);
+}
+
+.completeProjects .eachProject:nth-of-type(odd), .incompleteProjects .eachProject:nth-of-type(even) {
+    background-color: rgba(10, 197, 230, .2);
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2em;
+}
+
+.projectDescription p, .projectDescription ul {
+    width: 15em;
+}
+
+.projectDescription img {
+    width: 15em;
+    height: 15em;
+}
+
+.projectDescription p {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.projectDescription ul li {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.concepts {
+    font-size: 1.5em;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.eachProject .projectLink {
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #044688;
+}
+
+/* Contact */
+
+/* Utilities */
+
+.removeBullets {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
