@@ -57,6 +57,17 @@ nav {
     color: white;
 }
 
+nav select {
+    width: 100%;
+    height: 100%;
+    background-color: #044688;
+    outline: none;
+    display: none;
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+}
+
 .selected {
     background-color: rgba(4, 143, 193, .7);
     border: 2px solid #0490C1;
@@ -259,4 +270,22 @@ main {
 
 .clear {
     clear: both;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav ul {
+        display: none;
+    }
+
+    nav select {
+        display: inline-block;
+    }
+
+    .subheader div {
+        justify-content: center;
+    }
+    
+    .subheader img {
+        display: none;
+    };
 }
