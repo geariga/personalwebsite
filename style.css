@@ -226,7 +226,7 @@ main {
     padding-top: 2em;
 }
 
-.projectDescription p, .projectDescription ul {
+.projectDescription p, .projectDescription ul, .imageContainer {
     width: 15em;
 }
 
