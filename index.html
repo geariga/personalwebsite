@@ -21,16 +21,10 @@
             </li>
         </ul>
         
-        <select>
-            <option selected>
-                <a href="index.html">About</a>
-            </option>
-            <option>
-                <a href="projects.html">Projects</a>
-            </option>
-            <option>
-                <a href="contact.html">Contact</a>
-            </option>
+        <select onchange="location = this.value">
+            <option value="index.html" selected>About</option>
+            <option value="projects.html">Projects</option>
+            <option value="contact.html">Contact</option>
         </select>
     </nav>
     <div class="clear"></div>
