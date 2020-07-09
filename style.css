@@ -287,5 +287,9 @@ main {
     
     .subheader img {
         display: none;
-    };
+    }
+    
+    .eachProject .projectLink {
+        font-size: 1em;
+    }
 }
