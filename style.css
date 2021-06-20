@@ -194,13 +194,16 @@ main {
     border-left: 1px solid black;
 }
 
-.completeProjects, .incompleteProjects {
+.completeProjects {
     width: 100%;
     border-top: 1px solid black;
 }
 
 .eachProject {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     border-bottom: 1px solid black;
     padding-bottom: 1em;
@@ -217,11 +220,11 @@ main {
     width: 60%;
 }
 
-.completeProjects .eachProject:nth-of-type(even), .incompleteProjects .eachProject:nth-of-type(odd) {
+.completeProjects .eachProject:nth-of-type(even) {
     background-color: rgba(10, 197, 230, .5);
 }
 
-.completeProjects .eachProject:nth-of-type(odd), .incompleteProjects .eachProject:nth-of-type(even) {
+.completeProjects .eachProject:nth-of-type(odd) {
     background-color: rgba(10, 197, 230, .2);
 }
 
@@ -233,8 +236,12 @@ main {
     padding-top: 2em;
 }
 
-.projectDescription p, .projectDescription ul, .imageContainer {
-    width: 15em;
+.projectDescription p {
+    width: 60%;
+}
+
+.projectDescription ul, .imageContainer {
+    width: 50%;
 }
 
 .projectDescription img {
