@@ -195,8 +195,7 @@ main {
 }
 
 .completeProjects, .incompleteProjects {
-    width: 50%;
-    float: left;
+    width: 100%;
     border-top: 1px solid black;
 }
 
