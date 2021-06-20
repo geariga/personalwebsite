@@ -213,6 +213,10 @@ main {
     text-decoration: underline;
 }
 
+.each-project-final-row {
+    width: 60%;
+}
+
 .completeProjects .eachProject:nth-of-type(even), .incompleteProjects .eachProject:nth-of-type(odd) {
     background-color: rgba(10, 197, 230, .5);
 }
