@@ -190,10 +190,6 @@ main {
     border-right: 1px solid black;
 }
 
-.incompleteProjects {
-    border-left: 1px solid black;
-}
-
 .completeProjects {
     width: 100%;
     border-top: 1px solid black;
@@ -230,9 +226,9 @@ main {
 
 .projectDescription {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: column;
     flex-wrap: wrap;
     padding-top: 2em;
 }
