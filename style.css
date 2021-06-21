@@ -230,9 +230,9 @@ main {
 
 .projectDescription {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding-top: 2em;
 }
