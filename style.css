@@ -242,7 +242,7 @@ main {
 }
 
 .projectDescription ul, .imageContainer {
-    width: 50%;
+    width: 40%;
 }
 
 .projectDescription img {
@@ -304,11 +304,11 @@ main {
         display: none;
     }
     
-    .completeProjects, .incompleteProjects {
-        width: 100%;
-    }
-    
     .eachProject .projectLink {
         font-size: 1em;
+    }
+    
+    .projectDescription ul, .imageContainer {
+        width: 100%;
     }
 }
