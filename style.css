@@ -239,7 +239,7 @@ main {
 }
 
 .projectDescription ul, .imageContainer {
-    width: 30%;
+    width: 35%;
 }
 
 .projectDescription img {
@@ -254,7 +254,6 @@ main {
 
 .projectDescription ul li {
     line-height: 1.5em;
-    text-align: left;
 }
 
 .concepts {
