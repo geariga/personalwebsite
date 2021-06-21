@@ -228,9 +228,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: column;
+    align-items: center;
     flex-wrap: wrap;
-    padding-top: 2em;
+    padding-top: 12px;
 }
 
 .projectDescription p {
