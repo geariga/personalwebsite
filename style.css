@@ -29,6 +29,10 @@ a:visited {
     color: black;
 }
 
+ul {
+    padding: 0;
+}
+
 .skills-ul {
     list-style-type: none;
 }
@@ -231,6 +235,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 12px;
+    text-align: center;
 }
 
 .projectDescription p {
