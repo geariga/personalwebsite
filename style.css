@@ -230,8 +230,9 @@ main {
 
 .projectDescription {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 2em;
 }
@@ -242,7 +243,6 @@ main {
 
 .projectDescription ul, .imageContainer {
     width: 50%;
-    float: left;
 }
 
 .projectDescription img {
