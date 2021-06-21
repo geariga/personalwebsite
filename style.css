@@ -231,7 +231,6 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
     padding-top: 12px;
 }
 
@@ -240,7 +239,7 @@ main {
 }
 
 .projectDescription ul, .imageContainer {
-    width: 40%;
+    width: 30%;
 }
 
 .projectDescription img {
